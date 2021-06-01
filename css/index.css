@@ -1,0 +1,130 @@
+* {
+	/*user-select: none;*/
+}
+
+.enable {
+	color: aqua;
+}
+
+#_book small {
+	float: right;
+	font-size: 0.5rem;
+}
+
+#_book img {
+	height: 100%;
+	margin-top: 2rem;
+}
+
+#book .ul span {
+	max-width: 80%;
+}
+
+#_book_detail .badge {
+	margin-left: 0.3rem;
+}
+
+.hide {
+	display: none;
+}
+
+#_viewer_bottom {
+}
+
+.text-right {
+	text-align: right;
+}
+
+#_viewer_actions {
+	padding-bottom: 100px;
+
+}
+
+#_viewer_content span{
+	user-select: text;
+}
+
+#_selectMenu {
+	display: hide;
+	position: fixed;
+	top: 100px;
+}
+
+#_selectMenu .nav-link {
+	padding: 0;
+	width: 2rem;
+	height: 2rem;
+}
+
+#_selectMenu img {
+	width: 1rem;
+	height: 1rem;
+}
+
+.tab-pane {
+	min-width: 100px;
+	padding-right: 25px;
+	padding-left: 0.5rem;
+	    background-color: #000;
+    /*width: calc(100vh);*/
+    /*width: 300px;*/
+}
+
+.mark {
+	background-color: #000;
+	color: #4CAF50; 
+}
+
+.tab-pane textarea {
+	width: 100%;
+	height: 100%;
+}
+
+
+.ruby {
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 0.15em;
+    display: inline-table;
+    position: relative;
+    vertical-align: bottom;
+}
+
+.rb {
+	display: table-row;
+	user-select: text;
+	position: relative;
+	line-height: 1.3;
+}
+
+.rt {
+	display: table-header-group;
+	user-select: none !important;
+    line-height: 1.8;
+    color: #999;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: -0.001em;
+}
+
+.book_thumb {
+	text-align: center;
+	position: relative;
+}
+
+.book_thumb img {
+	width: 100%;
+}
+
+.book_thumb .badge {
+	position: absolute;
+	right: 15px;
+	top: 5px;
+}
+
+.bz {
+	cursor: pointer;
+	background-color: #000;
+	color: #fff; 
+}
